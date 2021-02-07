@@ -1,0 +1,1 @@
+window._CCSettings={platform:"web-mobile",groupList:["default","btn"],collisionMatrix:[[true],[false,false]],hasResourcesBundle:false,hasStartSceneBundle:false,remoteBundles:[],subpackages:[],launchScene:"db://assets/landing.fire",orientation:"",jsList:[],bundleVers:{internal:"279e0",main:"86b83"}};
