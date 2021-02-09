@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>PocketBirds by Bullhead</title>
+  <title>Cocos Creator | PocketBirds</title>
 
   <!--http://www.html5rocks.com/en/mobile/mobifying/-->
   <meta name="viewport"
@@ -25,7 +25,7 @@
   <meta name="full-screen" content="yes"/>
   <meta name="x5-fullscreen" content="true"/>
   <meta name="360-fullscreen" content="true"/>
-
+  
   <!-- force screen orientation on some browser -->
   <meta name="screen-orientation" content=""/>
   <meta name="x5-orientation" content="">
@@ -37,7 +37,7 @@
   <!--<link rel="apple-touch-icon" href=".png" />-->
   <!--<link rel="apple-touch-icon-precomposed" href=".png" />-->
 
-  <link rel="stylesheet" type="text/css" href="https://game-1251465491.file.myqcloud.com/pocketbirds/style-mobile.25fc5.css"/>
+  <link rel="stylesheet" type="text/css" href="style-mobile.25fc5.css"/>
   <link rel="icon" href="favicon.8de18.ico"/>
 </head>
 <body>
@@ -48,9 +48,9 @@
     </div>
   </div>
 
-<script src="https://game-1251465491.file.myqcloud.com/pocketbirds/src/settings.bdf00.js" charset="utf-8"></script>
+<script src="src/settings.76fc0.js" charset="utf-8"></script>
 
-<script src="https://game-1251465491.file.myqcloud.com/pocketbirds/main.b5e6c.js" charset="utf-8"></script>
+<script src="main.b0c2b.js" charset="utf-8"></script>
 
 <script type="text/javascript">
 (function () {
@@ -76,9 +76,9 @@
       document.body.appendChild(domScript);
     }
 
-    loadScript(debug ? 'cocos2d-js.js' : 'https://game-1251465491.file.myqcloud.com/pocketbirds/cocos2d-js-min.0eb30.js', function () {
+    loadScript(debug ? 'cocos2d-js.js' : 'cocos2d-js-min.0eb30.js', function () {
       if (CC_PHYSICS_BUILTIN || CC_PHYSICS_CANNON) {
-        loadScript(debug ? 'physics.js' : 'https://game-1251465491.file.myqcloud.com/pocketbirds/physics-min.b6620.js', window.boot);
+        loadScript(debug ? 'physics.js' : 'physics-min.b6620.js', window.boot);
       }
       else {
         window.boot();
